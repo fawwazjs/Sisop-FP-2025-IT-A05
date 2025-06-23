@@ -16,10 +16,10 @@
 
 Nama | NRP
 --- | ---
-... | 5027241xxx
-... | 5027241xxx
-... | 5027241xxx
-... | 5027241xxx
+Ahmad Wildan Fawwaz | 5027241001
+Revalina Erica Permatasari | 5027241007
+Theodorus Aaron Ugraha | 5027241056
+Az Zahra Tasya Adelia | 5027241087
 
 ## Deskripsi Soal
 
