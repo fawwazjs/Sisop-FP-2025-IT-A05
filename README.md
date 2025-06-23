@@ -63,7 +63,7 @@ Struktur repository:
 
 ...
 
-> c.Tampilkan kedua hasil tersebut
+> c. Tampilkan kedua hasil tersebut
 
 **Teori**
 
@@ -72,6 +72,7 @@ Struktur repository:
 **Solusi**
 
 ...
+
 **Video Menjalankan Program**
 ...
 
