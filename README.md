@@ -24,8 +24,11 @@ Az Zahra Tasya Adelia | 5027241087
 ## Deskripsi Soal
 
 13. PTHREAD A^B, B^A
+    
     a. Program menerima 2 input dari user untuk variable A dan B
+
     b. Program menggunakan Threading untuk melakukan perhitungan, 1 Thread untuk A^B, 1 thread lagi untuk B^A.
+
     c.Tampilkan kedua hasil tersebut
 
 ### Catatan
