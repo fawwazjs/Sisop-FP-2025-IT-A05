@@ -23,9 +23,10 @@ Az Zahra Tasya Adelia | 5027241087
 
 ## Deskripsi Soal
 
-> Insert testcase... (contoh dibawah) // hapus line ini
-
-Memahami race condition pada operasi check-then-act. Program membuat 2 thread; tiap thread mencoba mengambil satu-satunya sumber daya yang tersedia dari variabel global stok (nilai awal 1). Jika tanpa mutex, kedua thread bisa lolos pengecekan dan sama-sama mengambil sumber daya, menghasilkan nilai akhir stok menjadi -1.
+13. PTHREAD A^B, B^A
+    a. Program menerima 2 input dari user untuk variable A dan B
+    b. Program menggunakan Threading untuk melakukan perhitungan, 1 Thread untuk A^B, 1 thread lagi untuk B^A.
+    c.Tampilkan kedua hasil tersebut
 
 ### Catatan
 
