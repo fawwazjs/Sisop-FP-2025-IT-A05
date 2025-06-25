@@ -49,7 +49,7 @@ Struktur repository:
 
 Tahap input merupakan tahap awal dari proses pengolahan yang terjadi pada sistem komputer, tahap ini berupa memasukan data ke dalam sistem komputer melalui proses input (Nur Alifah, 2023).
 
-**Solusi**
+**Solusi**   
 Dalam kode C, tulis script:
 ```c
     printf("Masukkan angka A: ");
