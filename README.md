@@ -63,21 +63,45 @@ Dalam kode C, tulis script:
 
 **Teori**
 
-...
+Threading adalah teknik pemrograman yang memungkinkan sebuah program menjalankan beberapa bagian kode secara bersamaan (paralel) dalam satu proses. Pada bahasa C, threading dapat diimplementasikan menggunakan pustaka POSIX Threads (pthread). Dengan threading, program dapat melakukan beberapa tugas secara simultan, sehingga meningkatkan efisiensi dan responsivitas, terutama pada sistem multiprosesor.
+
+Pada kasus perhitungan A^B dan B^A, threading digunakan agar kedua operasi dapat berjalan secara paralel, bukan secara sekuensial. Setiap thread akan menjalankan fungsi yang berbeda secara independen, sehingga hasil perhitungan bisa diperoleh lebih cepat dan efisien.
 
 **Solusi**
 
-...
+- Program menerima dua input integer dari user, yaitu A dan B.
+- Dua buah thread dibuat menggunakan pustaka pthread:
+    - Thread pertama bertugas menghitung A^B.
+    - Thread kedua bertugas menghitung B^A.
+- Setiap thread menjalankan fungsi yang menerima argumen berupa struct berisi base, exponent, dan tempat hasil.
+- Setelah kedua thread selesai, hasil perhitungan ditampilkan di main thread.
+- Program juga menangani kasus error seperti input tidak valid, hasil tidak terdefinisi (misal 0^0, 0^negatif, atau eksponen negatif), dan overflow hasil perhitungan.
+
+Contoh kode pembuatan thread:
+```c
+pthread_t tid[2];
+ThreadArgs args_ab = {A, B, 0, 1};
+ThreadArgs args_ba = {B, A, 0, 2};
+pthread_create(&tid[0], NULL, thread_ab_func, (void *)&args_ab);
+pthread_create(&tid[1], NULL, thread_ba_func, (void *)&args_ba);
+```
+Setelah kedua thread selesai, hasil diambil dari struct dan ditampilkan ke layar.
 
 > c. Tampilkan kedua hasil tersebut
 
 **Teori**
 
-...
+Setelah proses perhitungan selesai dilakukan oleh masing-masing thread, hasil dari perhitungan A^B dan B^A perlu ditampilkan kepada pengguna. Penampilan hasil ini penting agar pengguna dapat melihat output dari operasi yang telah dilakukan.
 
 **Solusi**
 
-...
+Hasil perhitungan yang telah disimpan dalam variabel atau struktur data tertentu oleh masing-masing thread, perlu digabungkan dan ditampilkan. Penggabungan hasil ini dilakukan di thread utama setelah kedua thread perhitungan selesai dieksekusi.
+
+Contoh kode untuk menampilkan hasil:
+```c
+printf("Hasil %d^%d = %d\n", A, B, hasil_ab);
+printf("Hasil %d^%d = %d\n", B, A, hasil_ba);
+```
 
 **Video Menjalankan Program**
 
@@ -86,3 +110,6 @@ https://github.com/user-attachments/assets/1c409ae0-3ad5-44a1-848f-df9ceb5baca8
 ## Daftar Pustaka
 
 1. Nur Alifah, Deanda, G.V., Juniwan dan Aribowo, D., 2023. Peran teknologi input dan output dalam pengembangan perangkat keras dan perangkat lunak komputer. _Jurnal Kendali Teknik dan Sains_, 1(4):123–136.
+2. Buttlar, D., Farrell, J.P., & Nichols, B. (1996). _Pthreads Programming: A POSIX Standard for Better Multiprocessing_. O'Reilly Media. [https://books.google.co.in/books?id=oMtCFSnvwmoC&printsec=frontcover#v=onepage&q&f=false]
+3. Saha, S., & Mukherjee, N. (2017). Multithreading and Parallel Computing in C/C++. _International Journal of Computer Applications_, 162(7), 1-6. [https://www.researchgate.net/publication/385700631_Parallelism_and_Multithreading_in_High-Performance_Computing]
+4. Drepper, U. (2007). What Every Programmer Should Know About Memory. _ACM Queue_, 6(9), 30-53. [https://www.researchgate.net/publication/51992176_What_Every_Programmer_Should_Know_About_Memory]
