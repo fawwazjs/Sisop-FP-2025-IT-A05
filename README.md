@@ -45,7 +45,7 @@ Struktur repository:
 
 > a. Program menerima 2 input dari user untuk variable A dan B
 
-**Teori**
+**Teori**   
 
 Tahap input merupakan tahap awal dari proses pengolahan yang terjadi pada sistem komputer, tahap ini berupa memasukan data ke dalam sistem komputer melalui proses input (Nur Alifah, 2023).
 
