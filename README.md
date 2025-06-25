@@ -33,7 +33,7 @@ Az Zahra Tasya Adelia | 5027241087
 
 ### Catatan
 
-> Insert catatan dari pengerjaan kalian... (contoh dibawah) // hapus line ini
+> Tidak boleh menghitung A^B dan B^A secara sekuensial (satu per satu) dalam fungsi main utama. Sebaliknya, membuat dua thread terpisah. Thread Pertama: Akan bertanggung jawab penuh untuk menghitung nilai A^B. Thread Kedua: Akan bertanggung jawab penuh untuk menghitung nilai B^A.
 
 Struktur repository:
 ```
