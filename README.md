@@ -85,4 +85,4 @@ https://github.com/user-attachments/assets/1c409ae0-3ad5-44a1-848f-df9ceb5baca8
 
 ## Daftar Pustaka
 
-1. Nur Alifah, Deanda, G.V., Juniwan dan Aribowo, D., 2023. Peran teknologi input dan output dalam pengembangan perangkat keras dan perangkat lunak komputer. Jurnal Kendali Teknik dan Sains, 1(4):123–136.
+1. Nur Alifah, Deanda, G.V., Juniwan dan Aribowo, D., 2023. Peran teknologi input dan output dalam pengembangan perangkat keras dan perangkat lunak komputer. _Jurnal Kendali Teknik dan Sains_, 1(4):123–136.
