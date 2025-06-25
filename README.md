@@ -105,7 +105,7 @@ printf("Hasil %d^%d = %d\n", B, A, hasil_ba);
 
 **Video Menjalankan Program**
 
-https://github.com/user-attachments/assets/1c409ae0-3ad5-44a1-848f-df9ceb5baca8
+[https://github.com/user-attachments/assets/1c409ae0-3ad5-44a1-848f-df9ceb5baca8](https://github.com/user-attachments/assets/1ca9f389-3f4e-4791-8f45-75c44d95a33b)
 
 ## Daftar Pustaka
 
