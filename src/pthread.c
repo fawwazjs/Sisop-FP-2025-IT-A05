@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define MAX_RESULT 1000000000000000000LL // 1e18 batas contoh, bisa diubah sesuai kebutuhan
+#define MAX_RESULT 1000000000000000000LL
 
 typedef struct {
     int base;
