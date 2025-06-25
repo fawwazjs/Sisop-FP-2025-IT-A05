@@ -109,7 +109,7 @@ https://github.com/user-attachments/assets/1c409ae0-3ad5-44a1-848f-df9ceb5baca8
 
 ## Daftar Pustaka
 
-1. Nur Alifah, Deanda, G.V., Juniwan dan Aribowo, D., 2023. Peran teknologi input dan output dalam pengembangan perangkat keras dan perangkat lunak komputer. _Jurnal Kendali Teknik dan Sains_, 1(4):123–136.
+1. Nur Alifah, Deanda, G.V., Juniwan dan Aribowo, D., 2023. Peran teknologi input dan output dalam pengembangan perangkat keras dan perangkat lunak komputer. _Jurnal Kendali Teknik dan Sains_, 1(4):123–136. [https://doi.org/10.59581/jkts-widyakarya.v1i4]
 2. Buttlar, D., Farrell, J.P., & Nichols, B. (1996). _Pthreads Programming: A POSIX Standard for Better Multiprocessing_. O'Reilly Media. [https://books.google.co.in/books?id=oMtCFSnvwmoC&printsec=frontcover#v=onepage&q&f=false]
 3. Saha, S., & Mukherjee, N. (2017). Multithreading and Parallel Computing in C/C++. _International Journal of Computer Applications_, 162(7), 1-6. [https://www.researchgate.net/publication/385700631_Parallelism_and_Multithreading_in_High-Performance_Computing]
 4. Drepper, U. (2007). What Every Programmer Should Know About Memory. _ACM Queue_, 6(9), 30-53. [https://www.researchgate.net/publication/51992176_What_Every_Programmer_Should_Know_About_Memory]
