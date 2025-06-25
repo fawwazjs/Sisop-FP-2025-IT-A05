@@ -37,8 +37,8 @@ Az Zahra Tasya Adelia | 5027241087
 
 Struktur repository:
 ```
-.
-..
+├── src/                   # Source code C
+   ├── pthread.c           # Program
 ```
 
 ## Pengerjaan
@@ -74,7 +74,8 @@ Struktur repository:
 ...
 
 **Video Menjalankan Program**
-...
+
+https://github.com/user-attachments/assets/31d0fb47-e0ff-4b0d-9438-2a088631492d
 
 ## Daftar Pustaka
 
