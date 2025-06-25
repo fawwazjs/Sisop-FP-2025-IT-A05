@@ -75,7 +75,7 @@ Struktur repository:
 
 **Video Menjalankan Program**
 
-https://github.com/user-attachments/assets/31d0fb47-e0ff-4b0d-9438-2a088631492d
+https://github.com/user-attachments/assets/1c409ae0-3ad5-44a1-848f-df9ceb5baca8
 
 ## Daftar Pustaka
 
