@@ -58,6 +58,8 @@ Dalam kode C, tulis script:
     scanf("%d", &B);
 ```
 
+fungsi printf() digunakan untuk memberikan prompt yang jelas kepada pengguna, yang berguna untuk membaca dan menyimpan nilai integer yang dimasukkan ke dalam variabel A dan B.
+
 
 > b. Program menggunakan Threading untuk melakukan perhitungan, 1 Thread untuk A^B, 1 thread lagi untuk B^A.
 
@@ -102,6 +104,8 @@ Contoh kode untuk menampilkan hasil:
 printf("Hasil %d^%d = %d\n", A, B, hasil_ab);
 printf("Hasil %d^%d = %d\n", B, A, hasil_ba);
 ```
+
+Setelah hasilnya ditampilkan, memori yang dialokasikan secara dinamis untuk argumen thread juga dibebaskan.
 
 **Video Menjalankan Program**
 
