@@ -47,7 +47,7 @@ Struktur repository:
 
 **Teori**
 
-...
+Tahap input merupakan tahap awal dari proses pengolahan yang terjadi pada sistem komputer. Tahap ini berupa memasukan data ke dalam sistem komputer melalui proses input.
 
 **Solusi**
 
@@ -79,6 +79,4 @@ https://github.com/user-attachments/assets/1c409ae0-3ad5-44a1-848f-df9ceb5baca8
 
 ## Daftar Pustaka
 
-Sitasi 1
-Sitasi 2
-Sitasi 3
+1. Nur Alifah, Deanda, G. V., Juniwan, & Aribowo, D. (2023). Peran teknologi input dan output dalam pengembangan perangkat keras dan perangkat lunak komputer. Jurnal Kendali Teknik dan Sains, 1(4), 123–136. https://doi.org/10.59581/jkts-widyakarya.v1i4
