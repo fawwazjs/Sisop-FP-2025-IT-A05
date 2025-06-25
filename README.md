@@ -47,7 +47,7 @@ Struktur repository:
 
 **Teori**
 
-Tahap input merupakan tahap awal dari proses pengolahan yang terjadi pada sistem komputer. Tahap ini berupa memasukan data ke dalam sistem komputer melalui proses input.
+Tahap input merupakan tahap awal dari proses pengolahan yang terjadi pada sistem komputer, tahap ini berupa memasukan data ke dalam sistem komputer melalui proses input (Nur Alifah, 2023)
 
 **Solusi**
 
